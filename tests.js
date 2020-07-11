@@ -1,5 +1,5 @@
 QUnit.test( "addTax test", function( assert ) {
-test(1, 10, 1.1);
-test(5, 12, 5.6);
-test(100, 17.5, 117.5);
-};
+assert.equal(addTax(1, 10), 1.1);
+assert.equal(addTax(5, 12), 5.6);
+assert.equal(addTax(100, 17.5), 117.5);
+}
